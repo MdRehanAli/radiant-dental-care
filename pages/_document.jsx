@@ -2,7 +2,7 @@ import { Html, Head, Main, NextScript } from 'next/document'
 
 export default function Document() {
   return (
-    <Html lang="en">
+    <Html lang="en" className="dark">
       <Head>
         <meta charSet="utf-8" />
         <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
@@ -16,7 +16,7 @@ export default function Document() {
           }
         `}</style>
       </Head>
-      <body className="bg-surface font-body text-on-surface">
+      <body className="dark:bg-surface font-body dark:text-on-surface">
         <Main />
         <NextScript />
       </body>

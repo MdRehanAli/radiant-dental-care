@@ -22,7 +22,7 @@ export default function ContactMap() {
               </span>
               <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 w-8 h-2 bg-on-surface/10 blur-sm rounded-full"></div>
             </div>
-            <div className="mt-4 bg-surface-container-lowest py-3 px-6 rounded-full shadow-xl border border-outline-variant/15 inline-flex items-center gap-3 whitespace-nowrap">
+            <div className="mt-4 bg-background py-3 px-6 rounded-full shadow-xl border border-outline/15 inline-flex items-center gap-3 whitespace-nowrap">
               <span className="text-sm font-bold text-primary">Radiant Dental Care</span>
               <span className="text-xs text-on-surface-variant">Open Now</span>
             </div>

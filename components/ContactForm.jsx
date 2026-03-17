@@ -32,7 +32,7 @@ export default function ContactForm() {
 
   return (
     <div className="lg:col-span-7">
-      <div className="bg-surface-container-lowest rounded-3xl p-8 md:p-12 shadow-on-surface/4">
+      <div className="bg-background rounded-3xl p-8 md:p-12 shadow-on-surface/4">
         <h2 className="text-3xl font-bold text-on-surface mb-4">Book Your Visit</h2>
         <p className="text-on-surface-variant mb-10">
           Fill out the form below and our patient coordinator will reach out within 2 hours during clinical hours.
@@ -44,7 +44,7 @@ export default function ContactForm() {
                 <span className="material-symbols-outlined text-xs">person</span> Full Name
               </label>
               <input
-                className="w-full bg-surface-container-highest border-none rounded-xl py-4 px-5 focus:ring-2 focus:ring-primary/20 transition-all placeholder:text-outline"
+                className="w-full bg-surface-container border-none rounded-xl py-4 px-5 focus:ring-2 focus:ring-primary/20 transition-all placeholder:text-outline"
                 name="fullName"
                 onChange={handleChange}
                 placeholder="John Doe"
@@ -57,7 +57,7 @@ export default function ContactForm() {
                 <span className="material-symbols-outlined text-xs">mail</span> Email Address
               </label>
               <input
-                className="w-full bg-surface-container-highest border-none rounded-xl py-4 px-5 focus:ring-2 focus:ring-primary/20 transition-all placeholder:text-outline"
+                className="w-full bg-surface-container border-none rounded-xl py-4 px-5 focus:ring-2 focus:ring-primary/20 transition-all placeholder:text-outline"
                 name="email"
                 onChange={handleChange}
                 placeholder="john@example.com"
@@ -73,7 +73,7 @@ export default function ContactForm() {
                 <span className="material-symbols-outlined text-xs">call</span> Phone Number
               </label>
               <input
-                className="w-full bg-surface-container-highest border-none rounded-xl py-4 px-5 focus:ring-2 focus:ring-primary/20 transition-all placeholder:text-outline"
+                className="w-full bg-surface-container border-none rounded-xl py-4 px-5 focus:ring-2 focus:ring-primary/20 transition-all placeholder:text-outline"
                 name="phone"
                 onChange={handleChange}
                 placeholder="(555) 000-0000"

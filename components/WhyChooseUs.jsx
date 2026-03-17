@@ -45,7 +45,7 @@ export default function WhyChooseUs() {
           {cards.map((card, index) => (
             <div
               key={index}
-              className={`${card.bgColor} p-10 rounded-[2rem] flex flex-col justify-between hover:bg-primary-fixed transition-all duration-500 border border-outline-variant/10 shadow-sm`}
+              className={`${card.bgColor} p-10 rounded-[2rem] flex flex-col justify-between hover:bg-primary transition-all duration-500 border border-outline/10 shadow-sm`}
             >
               <div>
                 <div className={`w-14 h-14 rounded-2xl ${card.iconBg} ${card.iconColor} flex items-center justify-center mb-8`}>

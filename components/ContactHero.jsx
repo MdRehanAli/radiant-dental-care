@@ -9,7 +9,7 @@ export default function ContactHero() {
           <h1 className="text-5xl md:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
             Your Journey to Clinical Serenity Starts Here.
           </h1>
-          <p className="text-xl text-primary-fixed-dim leading-relaxed">
+          <p className="text-xl text-on-primary leading-relaxed">
             Reach out to our expert team for inquiries or to secure your next visit to our peaceful sanctuary.
           </p>
         </div>

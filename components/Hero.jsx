@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Hero() {
   return (
-    <section className="relative min-h-[870px] flex items-center overflow-hidden">
+    <section className="relative min-h-[700px] flex items-center overflow-hidden">
       <div className="max-w-7xl mx-auto px-8 w-full grid md:grid-cols-2 gap-12 items-center relative z-10">
         {/* Left Content */}
         <div className="space-y-8 animate-in fade-in">
@@ -23,7 +23,7 @@ export default function Hero() {
               Book an Appointment
               <span className="material-symbols-outlined">calendar_today</span>
             </button>
-            <button className="bg-surface-container-high text-primary px-8 py-4 rounded-xl font-bold hover:bg-primary-fixed transition-all">
+            <button className="bg-surface-container text-primary px-8 py-4 rounded-xl font-bold hover:bg-primary hover:text-on-primary transition-all">
               Explore Our Services
             </button>
           </div>
@@ -42,8 +42,8 @@ export default function Hero() {
           </div>
           
           {/* Rating Badge */}
-          <div className="absolute -bottom-8 -left-8 p-6 bg-surface-container-lowest rounded-2xl shadow-xl flex items-center gap-4 border border-outline-variant/15">
-            <div className="w-12 h-12 rounded-full bg-primary-fixed flex items-center justify-center">
+          <div className="mt-8 p-6 bg-background rounded-2xl shadow-xl flex items-center gap-4 border border-outline/15 max-w-xs">
+            <div className="w-12 h-12 rounded-full bg-primary flex items-center justify-center">
               <span className="material-symbols-outlined text-primary" style={{ fontVariationSettings: "'FILL' 1" }}>
                 verified
               </span>

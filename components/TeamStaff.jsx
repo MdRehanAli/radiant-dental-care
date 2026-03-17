@@ -36,7 +36,7 @@ export default function TeamStaff() {
           {staffMembers.map((member, index) => (
             <div
               key={index}
-              className="md:col-span-1 bg-surface-container-lowest p-6 rounded-xl hover:bg-primary-fixed transition-colors duration-300"
+              className="md:col-span-1 bg-background p-6 rounded-xl hover:bg-primary transition-colors duration-300"
             >
               <div className="aspect-square rounded-lg overflow-hidden mb-4">
                 <img

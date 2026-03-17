@@ -11,7 +11,7 @@ export default function ServicesCTA() {
         <button className="hero-gradient text-on-primary px-10 py-4 rounded-xl font-bold text-lg hover:scale-105 transition-all shadow-xl shadow-primary/25">
           Request Appointment
         </button>
-        <button className="bg-surface-container-high text-primary px-10 py-4 rounded-xl font-bold text-lg hover:bg-primary-fixed transition-all">
+        <button className="bg-surface-container text-primary px-10 py-4 rounded-xl font-bold text-lg hover:bg-primary hover:text-on-primary transition-all">
           View Pricing
         </button>
       </div>

@@ -37,7 +37,7 @@ export default function TeamDoctors() {
               className={`absolute ${
                 doctor.reverse ? '-bottom-6 -right-6' : '-top-6 -left-6'
               } w-full h-full ${
-                doctor.reverse ? 'bg-secondary-fixed' : 'bg-primary-fixed'
+                doctor.reverse ? 'bg-secondary' : 'bg-primary'
               } rounded-xl -z-10`}
             ></div>
             <div className="aspect-[4/5] rounded-xl overflow-hidden shadow-2xl">

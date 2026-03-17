@@ -5,8 +5,8 @@ export default function ContactInfo() {
         <h2 className="text-3xl font-bold text-on-surface mb-8">Reach Out Directly</h2>
         <div className="space-y-6">
           {/* Location */}
-          <div className="flex items-start gap-6 p-6 rounded-2xl bg-surface-container transition-all hover:bg-primary-fixed group">
-            <div className="w-12 h-12 rounded-xl bg-surface-container-lowest flex items-center justify-center text-primary shadow-sm group-hover:scale-110 transition-transform">
+          <div className="flex items-start gap-6 p-6 rounded-2xl bg-surface-container transition-all hover:bg-primary group">
+            <div className="w-12 h-12 rounded-xl bg-background flex items-center justify-center text-primary shadow-sm group-hover:scale-110 transition-transform">
               <span className="material-symbols-outlined">location_on</span>
             </div>
             <div>
@@ -20,8 +20,8 @@ export default function ContactInfo() {
           </div>
 
           {/* Phone */}
-          <div className="flex items-start gap-6 p-6 rounded-2xl bg-surface-container transition-all hover:bg-primary-fixed group">
-            <div className="w-12 h-12 rounded-xl bg-surface-container-lowest flex items-center justify-center text-primary shadow-sm group-hover:scale-110 transition-transform">
+          <div className="flex items-start gap-6 p-6 rounded-2xl bg-surface-container transition-all hover:bg-primary group">
+            <div className="w-12 h-12 rounded-xl bg-background flex items-center justify-center text-primary shadow-sm group-hover:scale-110 transition-transform">
               <span className="material-symbols-outlined">call</span>
             </div>
             <div>
@@ -32,8 +32,8 @@ export default function ContactInfo() {
           </div>
 
           {/* Email */}
-          <div className="flex items-start gap-6 p-6 rounded-2xl bg-surface-container transition-all hover:bg-primary-fixed group">
-            <div className="w-12 h-12 rounded-xl bg-surface-container-lowest flex items-center justify-center text-primary shadow-sm group-hover:scale-110 transition-transform">
+          <div className="flex items-start gap-6 p-6 rounded-2xl bg-surface-container transition-all hover:bg-primary group">
+            <div className="w-12 h-12 rounded-xl bg-background flex items-center justify-center text-primary shadow-sm group-hover:scale-110 transition-transform">
               <span className="material-symbols-outlined">mail</span>
             </div>
             <div>
