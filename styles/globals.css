@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .animate-fade-in {
+    @apply animate-fade-in;
+  }
+}
