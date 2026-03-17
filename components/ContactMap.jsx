@@ -1,7 +1,7 @@
 export default function ContactMap() {
   return (
     <div className="mt-20 px-8 max-w-7xl mx-auto">
-      <div className="relative w-full h-[500px] rounded-[2rem] overflow-hidden shadow-on-surface/4 blur-[48px]">
+      <div className="relative w-full h-[500px] rounded-[2rem] overflow-hidden shadow-on-surface/4">
         {/* Map placeholder */}
         <div className="absolute inset-0 bg-surface-container-highest flex items-center justify-center overflow-hidden">
           <img

@@ -14,7 +14,16 @@ export default function ContactHero() {
           </p>
         </div>
         {/* Decorative overlay */}
-        <div className="absolute top-0 right-0 w-1/2 h-full opacity-10 pointer-events-none"></div>
+        <div className="absolute top-0 right-0 w-1/2 h-full opacity-10 pointer-events-none ">
+          {/* Tooth icon decoration */}
+          <div className="absolute top-10 right-10 text-primary/20 scale-[3]">
+            <span className="material-symbols-outlined" style={{ fontSize: '120px' }}>tooth</span>
+          </div>
+          {/* Smile icon decoration */}
+          <div className="absolute bottom-10 -right-5 text-primary/15 scale-[2.5]">
+            <span className="material-symbols-outlined" style={{ fontSize: '120px' }}>sentiment_satisfied</span>
+          </div>
+        </div>
       </div>
     </div>
   )

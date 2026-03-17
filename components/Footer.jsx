@@ -69,11 +69,11 @@ export default function Footer() {
             Visit Our Sanctuary
           </h4>
           <p className="text-sm text-on-surface-variant mb-4">
-            1200 Serenity Blvd, Suite 400<br />
-            Modern Heights, NY 10012
+            Mosarof Tower(Ground Floor)<br />
+            Rajbari Road, Joydebpur, Gazipur
           </p>
-          <p className="text-sm font-bold text-primary mb-2">Mon - Fri: 8am - 7pm</p>
-          <p className="text-sm font-bold text-primary">Sat: 9am - 2pm</p>
+          <p className="text-sm font-bold text-primary mb-2">Everyday: 10am - 1pm</p>
+          <p className="text-sm font-bold text-primary">Everyday: 4pm - 9pm</p>
         </div>
       </div>
 

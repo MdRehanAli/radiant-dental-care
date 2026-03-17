@@ -32,7 +32,7 @@ export default function ContactForm() {
 
   return (
     <div className="lg:col-span-7">
-      <div className="bg-surface-container-lowest rounded-3xl p-8 md:p-12 shadow-on-surface/4 blur-[48px]">
+      <div className="bg-surface-container-lowest rounded-3xl p-8 md:p-12 shadow-on-surface/4">
         <h2 className="text-3xl font-bold text-on-surface mb-4">Book Your Visit</h2>
         <p className="text-on-surface-variant mb-10">
           Fill out the form below and our patient coordinator will reach out within 2 hours during clinical hours.
