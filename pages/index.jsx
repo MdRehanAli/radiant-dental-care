@@ -17,7 +17,7 @@ export default function Home() {
 
       <Header />
       
-      <main className="pt-20">
+      <main className="pt-24">
         <Hero />
         <WhyChooseUs />
         <Testimonials />
