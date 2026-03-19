@@ -64,7 +64,7 @@ export default function Footer() {
         </div>
 
         {/* Contact Info */}
-        <div className="dark:bg-surface-container p-8 rounded-2xl">
+        <div className="dark:bg-surface-container px-8 rounded-2xl">
           <h4 className="font-headline font-bold dark:text-on-surface mb-4">
             Visit Our Sanctuary
           </h4>
