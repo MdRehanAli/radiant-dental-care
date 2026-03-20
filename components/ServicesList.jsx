@@ -48,7 +48,7 @@ export default function ServicesList() {
             <h3 className="font-headline text-xl font-bold mb-3 text-on-surface">
               {service.title}
             </h3>
-            <p className="text-on-surface-variant text-sm leading-relaxed mb-6 group-hover:text-on-primary">
+            <p className="text-on-surface-variant text-sm leading-relaxed mb-6 group-hover:text-on-primary text-justify">
               {service.description}
             </p>
             <a className="inline-flex items-center text-primary font-semibold group-hover:text-on-primary hover:underline transition-all" href="#">
