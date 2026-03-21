@@ -27,7 +27,7 @@ export default function ServicesList() {
     {
       icon: 'grid_view',
       title: 'Orthodontics',
-      description: 'Specialized alignment solutions including Invisalign clear aligners and traditional braces for all ages.',
+      description: 'Specialized alignment solutions including Invitation clear aligners and traditional braces for all ages.',
       link: 'Learn More',
       bgColor: 'bg-secondary-container',
       bgHover: 'group-hover:bg-background',
