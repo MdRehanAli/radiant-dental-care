@@ -1,4 +1,4 @@
-# Radiant Dental Care - Next.js App
+    # Radiant Dental Care - Next.js App
 
 A modern, responsive dental care website built with Next.js, React, and Tailwind CSS.
 
@@ -103,7 +103,7 @@ This project can be deployed to Vercel, Netlify, or any other Next.js-compatible
 ```bash
 npm install -g vercel
 vercel
-```
+``` 
 
 ## License
 
