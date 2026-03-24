@@ -10,7 +10,7 @@ export default function Services() {
   return (
     <>
       <Head>
-        <title>Services | Radiant Dental Care</title>
+        <title>Services | Radiant Dental Care(RDC)</title>
         <meta name="description" content="Comprehensive dental services from general dentistry to cosmetic treatments - all in a serene environment." />
       </Head>
 
