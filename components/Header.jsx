@@ -79,9 +79,9 @@ export default function Header() {
             <button className="text-on-surface hover:text-primary transition-colors font-medium">
               <span className="material-symbols-outlined">call</span>
             </button>
-            <button className="bg-gradient-to-br from-primary to-primary-container text-on-primary px-6 py-3 rounded-xl font-bold hover:scale-105 transition-all shadow-lg shadow-primary/20 hover:shadow-xl hover:shadow-primary/30">
+            <Link href="/book-appointment" className="bg-gradient-to-br from-primary to-primary-container text-on-primary px-6 py-3 rounded-xl font-bold hover:scale-105 transition-all shadow-lg shadow-primary/20 hover:shadow-xl hover:shadow-primary/30">
               Book Appointment
-            </button>
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
