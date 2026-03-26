@@ -35,7 +35,7 @@ export default function Header() {
   return (
     <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ${
       isScrolled
-        ? 'bg-surface/95 backdrop-blur-lg shadow-lg shadow-primary/5'
+        ? 'bg-surface/90 backdrop-blur-lg shadow-lg shadow-primary/5'
         : 'bg-surface/80 backdrop-blur-md shadow-on-surface/4'
     }`}>
       <div className="max-w-7xl mx-auto px-8">
